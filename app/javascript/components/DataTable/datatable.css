@@ -1,0 +1,33 @@
+  .data-table {
+    padding:10px;
+    box-shadow: 2px 2px 2px 1px rgb(90, 88, 88);
+  }
+  
+  .data-inner-table {
+    width:100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th {
+    background-color:whitesmoke;
+    padding: 7px;
+    position: relative;
+    border: 1px solid #e5e5e5;
+    text-align: left;
+    font-weight: normal;
+    line-height: 2em;
+  }
+  
+  .data-table td {
+    border: 1px solid #eee;
+    color: #212121;
+    vertical-align: middle;
+    padding: 4px 7px;
+  }
+  
+  .data-table-caption {
+    padding: 15px 5px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+  }

@@ -1,0 +1,18 @@
+AllCops:
+  
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - 'spec/**'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+Style/Documentation:  
+  Enabled: false
